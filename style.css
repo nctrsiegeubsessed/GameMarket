@@ -9,11 +9,13 @@ body {
     background: black;
     color: white;
 }
+
 header {
     width: 100%;
     
     display: flex;
     justify-content: center;
+    background-color: rgb(26, 21, 21);
 }
 .logo,
 .top-menu {
@@ -41,6 +43,7 @@ header {
     margin-right: 650px;
     font-size: 54px;
     color: white;
+    
 
     transition: .3s ease;
 }
@@ -54,9 +57,13 @@ header {
     scale: 1.2;
 }
 
-.wrapper {
+.wrapper,
+.row,
+.wrap,
+.wraprow {
     margin-top: 100px;
     display: flex;
+    
 }
 .card-one {
     background-color: #fff;
@@ -83,4 +90,6 @@ header {
 
 
 }
+
+
 
