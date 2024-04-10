@@ -1,0 +1,86 @@
+* {
+   
+}
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    
+    background: black;
+    color: white;
+}
+header {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.logo,
+.top-menu {
+    display: inline-block;
+    
+
+}
+
+.top-menu li{
+    margin-right: 40px;
+    display: inline-block;
+    padding: 30px;
+
+    transition: .3s ease;
+    
+}
+
+.top-menu a{
+   
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.logo h1{
+    margin-right: 650px;
+    font-size: 54px;
+    color: white;
+
+    transition: .3s ease;
+}
+.logo h1:hover {
+    color: aqua;
+    scale: 1.05;
+    
+}
+
+.top-menu li:hover {
+    scale: 1.2;
+}
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+}
+.card-one {
+    background-color: #fff;
+    width: 320px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 60px;
+    transition: .6s ease;
+}
+.card-one:hover {
+    scale: 1.1;
+}
+.card-one a {
+    text-decoration: none;
+}
+.card-title {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
