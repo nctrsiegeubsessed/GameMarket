@@ -16,12 +16,21 @@
         </div>
         <div class="top-menu">
             <ul>
-                <li><a href="#">Багато ігор</a></li>
-                <li><a href="#">Докладніше про гру</a></li>
+                <button id="scrollButton" class="bad-button"><li><a href="#" >Докладніше про гру</a></li></button>
+                
                 <li><a href="#">Оцінювання ігор</a></li>
             </ul>
         </div>
     </header>
+    <script>
+        document.getElementById('scrollButton').addEventListener('click', function() {
+            // Отримуємо потрібний елемент, до якого треба прокрутити
+            var targetElement = document.getElementById('infoSection');
+            
+            // Прокручуємо сторінку до цього елемента
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 
     
 
@@ -248,8 +257,28 @@
           </div>
         </div>
 
+        <div class="mont">
 
+            <div class="titleloop" >
+                <h1 id="infoSection">Докладніше про ігри</h1>
+            </div>
+    
+            <div class="osnv">
+                <p>Створення гри на мові програмування - <span class="septum">JavaScript</span> захоплюючий<br>
+                     і творчий процес, що вимагає як знань програмування, так і фантазії<br> геймдевелопера 
+                     JavaScript, як мова, широко використовується <br>для розробки веб-додатків, але вона 
+                     також ідеально підходить <br>для створення ігор, особливо в браузері. 
+                    Всі ці ігри були створені <br>учнями нашого навчального закладу.
+    
+    
+    
+                </p>
+            </div>
+    
+    
+        </div>
     </div>
+    
 
 
 
