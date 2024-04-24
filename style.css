@@ -106,7 +106,7 @@ header {
 }
 .card-one:active {
   background-color: #beb1b1cb;
-  transform: rotate(-360deg);
+ 
   
 }
 .card-one a {
