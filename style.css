@@ -26,9 +26,10 @@ header {
     
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(circle, #804a4a, #000000);
+    background-color: rgba(140, 101, 141, 0.432);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+
 .logo,
 .top-menu {
     display: inline-block;
@@ -64,6 +65,7 @@ header {
     scale: 1.05;
     
 }
+
 
 .top-menu li:hover {
     scale: 1.2;
@@ -145,7 +147,7 @@ header {
   }
   
   .buttons button {
-    --_c: #0000001e;
+    --_c: #ffffff1e;
     flex: calc(1.25 + var(--_s,0));
     min-width: 0;
     font-size: 40px;
@@ -164,7 +166,7 @@ header {
     transition: flex .4s;
   }
   .buttons button + button {
-    --_c: #000000;
+    --_c: #ffffff;
     flex: calc(.75 + var(--_s,0));
     background: 
       conic-gradient(from -90deg at calc(1.3*var(--b)) 100%,var(--_c) 119deg, #0000 121deg) 
@@ -180,6 +182,7 @@ header {
     margin: 0;
     padding: 0;
   }
+  
   .buttons button:has(+ button:focus-visible) {
     background: none;
     clip-path: none;
@@ -191,8 +194,8 @@ header {
     --_s: .75;
   }
   button:active {
-    box-shadow: inset 0 0 0 100vmax var(--_c);
     
+    color: #fff;
   }
 
 .buttons:hover {
@@ -227,24 +230,12 @@ margin-left: 50px;
     font-size: 36px;
 
     transition: .2s ease;
-  
+    transform: rotate(-5deg);
     font-weight: 600;
-
 }
-.titleloop::before {
-  content: '';
-position: absolute;
-top: 50%;
-left: 50%;
-width: 300%;
-height: 300%;
-background: rgba(255, 255, 255, 0.1);
-border-radius: 50%;
-transition: all 0.5s;
-z-index: 0;
-transform: translate(-50%, -50%);
+.titleloop:hover {
+  transform: rotate(0deg);
 }
-
 .osnv {
   font-size: 22px;
   text-align: center;
@@ -252,8 +243,25 @@ transform: translate(-50%, -50%);
 .septum {
   color: coral;
 }
+.ocen {
+  font-size: 30px;
+  font-weight: 700;
 
+  transition: 3s ease;
 
-  
-  
- 
+}
+.ocen:active {
+  font-size: 40px;
+}
+img {
+  transition: 1s ease;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+}
+img:hover {
+  scale: 1.05;
+}
+img:active {
+  scale: 5;
+}
