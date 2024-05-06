@@ -263,5 +263,5 @@ img:hover {
   scale: 1.05;
 }
 img:active {
-  scale: 5;
+  padding: 5px;
 }
