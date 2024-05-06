@@ -10,7 +10,7 @@ if (itemsDiv) {
     console.log('Поле innerHTML: ', itemsDiv.innerHTML)
 
     itemsDiv.innerText = '1 Програмно доданий текст'
-    itemsDiv.innerText += '2 Програмно доданий текст'
+    itemsDiv.innerText = '2 Програмно доданий текст'
 
     itemsDiv.innerHTML = '<div class="item"></div>'
     itemsDiv.innerHTML += '<div class="item"></div>'
