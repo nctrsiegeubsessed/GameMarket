@@ -12,7 +12,10 @@ if (itemsDiv) {
     itemsDiv.innerText = '1 Програмно доданий текст'
     itemsDiv.innerText += '2 Програмно доданий текст'
 
-    itemsDiv.innerHTML = '<h1>Відформатований HTML код</h1>'
+    itemsDiv.innerHTML = '<div class="item"></div>'
+    itemsDiv.innerHTML += '<div class="item"></div>'
+    itemsDiv.innerHTML += '<div class="item"></div>'
+    itemsDiv.innerHTML += '<div class="item"></div>'
 } else {
     console.log('Блок товару не знайдено')
 }
