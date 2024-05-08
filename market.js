@@ -1,21 +1,30 @@
 console.log('Перевірка підключеного файлу скриптів market.js')
 
 let itemsDiv = document.getElementById("items");
+
 if (itemsDiv) {
-    console.log(itemsDiv)
-
-    console.log('Поле classList: ', itemsDiv.classList)
-    console.log('Поле id: ', itemsDiv.id)
-    console.log('Поле clientWidth: ', itemsDiv.clientWidth)
-    console.log('Поле innerHTML: ', itemsDiv.innerHTML)
-
-    itemsDiv.innerText = '1 Програмно доданий текст'
-    itemsDiv.innerText = '2 Програмно доданий текст'
-
-    itemsDiv.innerHTML = '<div class="item"></div>'
-    itemsDiv.innerHTML += '<div class="item"></div>'
-    itemsDiv.innerHTML += '<div class="item"></div>'
-    itemsDiv.innerHTML += '<div class="item"></div>'
+    
 } else {
     console.log('Блок товару не знайдено')
 }
+let itemsArray = [
+    'Газонокосарка 43',
+    'Електричний тример 110',
+    'Електрична газонокосарка 32',
+    'Акамуляторний оприскувач 12 N',
+    'Газонокосарка 430',
+    'Електричний тример 130',
+    'Електрична газонокосарка 320',
+    'Акумуляторний оприскувач 12 E',
+]
+itemsArray.sort().forEach((item) => {
+    console.log( item)
+})
+
+// itemsArray = itemsArray.sort()
+
+//console.log(itemsArray)
+
+//for (let i = 0; i < itemsArray.length; i++) {
+//    console.log(i + '-й елемент: ', itemsArray[i])
+//}
