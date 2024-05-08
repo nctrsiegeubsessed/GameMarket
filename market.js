@@ -12,7 +12,7 @@ let itemsDiv = document.getElementById("items");
 
 if (itemsDiv) {
     itemsArray.forEach((item) => {
-       itemsDiv.innerHTML += '<div class = "item">${item}</div>'
+       itemsDiv.innerHTML += `<div class = "item">${item}</div>`
     })
 } else {
     console.log('Блок товару не знайдено')
