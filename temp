@@ -1,5 +1,11 @@
  <div class="item">
-              <!--  <div class="item-title">Мотокоса 43</div>
+              <!--'Газонокосарка 430',
+    'Електричний тример 130',
+    'Електрична газонокосарка 320',
+    'Акумуляторний оприскувач 12 E',
+    
+    
+    <div class="item-title">Мотокоса 43</div>
             <div class="item-img"><img src="img/2022-04-07-11-05-15-9.jpg" alt="" height="200px"></div>
         <div class="parts-pay">
             <div><img src="img/mono-lapka.png" alt="">6</div>
@@ -18,3 +24,4 @@
             <div class="item">Тример</div>
             <div class="item">Газонокосарка</div>
             <div class="item">Оприскувач</div>-->
+            
