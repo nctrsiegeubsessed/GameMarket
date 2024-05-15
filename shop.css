@@ -51,6 +51,7 @@ div {
 .item {
     min-width: 200px;
     min-height: 400px;
+    
     margin-bottom: 10px;
     padding: 10px;
 
@@ -68,11 +69,8 @@ div {
     font-weight: bold;
 }
 .item-image {
-    
-    background-image: url();
-    block-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 240px;
+    border-radius: 5px;
 }
 .parts-pay img {
     height: 24px;
@@ -139,4 +137,29 @@ div {
     font-size: 9px;
     text-align: justify;
     color: rgb(120, 120, 120);
+}
+
+
+
+
+
+
+
+
+.title-tich {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+
+}
+.sell-tich {
+    font-size: 15px;
+    font-weight: 500;
+}
+.a-tich {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
 }
